@@ -1,2 +1,12 @@
 # baseline_water_field_note_analysis
 sentiment analysis and feature extraction techniques on the subjective field notes within the BWWT https://www.alberta.ca/baseline-water-well-testing
+
+**Pitch:** Enhancing Water Quality Insights for Alberta: Unlocking the Power of Field Notes
+
+My project aims to improve the understanding of water quality of rural water wells in Alberta by combining the precision of numerical water test results with the subjective insights hidden within "Field Notes" descriptions. With a database of approximately 40,000 "Baseline Water Well Tests" records, I will leverage advanced sentiment analysis and feature extraction techniques on the subjective field notes. My prediction is that finding where subjective assessments and test results diverge will provide important insights into which parameters are likely to be causing harm unnoticed.
+
+
+
+**Problem Statement:** Despite having a substantial database of "Baseline Water Well Tests," the Alberta government faces a challenge in fully understanding and utilizing the qualitative aspects of water quality. The "Field Notes" section, where subjective observations are documented, remains an untapped resource. Traditional numerical test results provide crucial quantitative data, but the nuanced characteristics described in field notes, such as odors and visual qualities, require advanced analysis for a comprehensive understanding. My project seeks to bridge this gap by applying sentiment analysis and feature extraction techniques to uncover hidden patterns within the field notes, ultimately enhancing the accuracy and depth of water quality assessments.
+
+**Data Usage:** The dataset comprises around 40,000 records of "Baseline Water Well Tests" conducted in Alberta. Each record contains numerical test results, including concentrations of contaminants and salts. Additionally, the dataset features "Field Notes" providing subjective descriptions of the water, offering insights into its sensory qualities. The focus will be on performing sentiment analysis specifically for odors mentioned in the field notes. The dataset will be converted into an SQL database for structured analysis. Advanced natural language processing tools, such as NLTK, SpaCY, SciKit Learn, and Transformers from Huggingface, will be employed to extract sentiment and features from the textual data. The final results will be presented through interactive visualizations, potentially using Tableau, providing a nuanced and comprehensive perspective on water quality in Alberta.
